@@ -82,3 +82,18 @@ ul li.checked {
 ul li.checked::before {
     background-image: url(images/checked.png);
 }
+ul li span {
+    width: 30px;
+    height: 30px;
+    right: 0;
+    top: 2px;
+    color: #555;
+    line-height: 30px;
+    position: absolute;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+ul li span:hover {
+    background-color: #edecec;
+}
